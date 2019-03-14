@@ -79,7 +79,7 @@ function(px4_add_common_flags)
 		-Wunknown-pragmas
 		-Wunused-variable
 
-		#-Wcast-align # TODO: fix and enable
+		-Wcast-align
 
 		# disabled warnings
 		-Wno-implicit-fallthrough # set appropriate level and update
